@@ -1,0 +1,33 @@
+.container-inset{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-self: center;
+    align-content: center;
+}
+
+input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 16px;
+    border-radius: 6px;
+    border-style: groove;
+    background: none;
+    display: flex;
+    flex-direction: row;
+} 
+
+button{
+    padding: 10px;
+    border-radius: 10%;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+    
+}
+
+::placeholder{
+    opacity: 50%;
+}
