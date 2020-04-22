@@ -11,13 +11,15 @@ import { DisplayComponent } from './display/display.component';
 
 //animations
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CardComponent } from './card/card.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DisplayComponent
+    DisplayComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
