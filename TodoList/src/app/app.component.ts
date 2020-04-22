@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-// import { MaterialModule } from './material/material.module';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'TodoList';
+  title = 'TO DO - List';
 }

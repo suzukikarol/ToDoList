@@ -1,10 +1,10 @@
 <div class="toolbar">
-  <img
+  <img class="imglogo"
     width="40"
-    alt="Angular Logo"
-    src="../assets/icon_first.png"
+    alt="ToDo Logo"
+    src="../assets/quadrado ticado.png"
   />
-  <span>TO DO - LIST</span>
+  <span class="titleone">Lista de Tarefas Diária</span>
 </div>
 
 <mat-button-toggle-group #group="matButtonToggleGroup">
@@ -23,6 +23,9 @@
     <span> {{ title }}</span>
   </div>
 
+  <div>
+    <app-display></app-display>
+  </div>
 </div>
 
 <router-outlet></router-outlet>
