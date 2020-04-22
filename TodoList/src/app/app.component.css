@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #888;
+    background-color: #836FFF;
     color: white;
     font-weight: 600;
     }
@@ -80,6 +80,17 @@
     
     a:hover {
     color: #125699;
+    }
+
+    .imglogo{
+        height: 55%;
+        width: 2%;
+        
+    }
+
+    .titleone{
+        font: bold;
+        font-size: 18px;
     }
     
     
