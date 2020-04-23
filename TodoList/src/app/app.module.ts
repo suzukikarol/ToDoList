@@ -12,6 +12,7 @@ import { DisplayComponent } from './display/display.component';
 //animations
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './card/card.component';
+import { InputComponent } from './input/input.component';
 
 
 
@@ -19,7 +20,8 @@ import { CardComponent } from './card/card.component';
   declarations: [
     AppComponent,
     DisplayComponent,
-    CardComponent
+    CardComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
