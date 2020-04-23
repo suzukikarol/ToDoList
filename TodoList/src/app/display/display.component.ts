@@ -9,7 +9,6 @@ import { CardComponent } from '../card/card.component';
 
 export class DisplayComponent implements OnInit {
 
-  inputValue:string = 'Nova Tarefa...'
 
   constructor() { }
 
@@ -17,7 +16,7 @@ export class DisplayComponent implements OnInit {
 
   ngOnInit(): void {
     this.card = [];
-    
+
   }
 
   // getTask(event){
@@ -26,7 +25,7 @@ export class DisplayComponent implements OnInit {
   // }
 
   addCard() {
-  
+
   }
 
 }

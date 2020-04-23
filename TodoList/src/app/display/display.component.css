@@ -6,37 +6,6 @@
     align-content: center;
 }
 
-input{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 10px;
-    padding: 16px;
-    border-radius: 6px;
-    border-style: groove;
-    background: none;
-    display: flex;
-    flex-direction: row;
-    color: #836FFF;
-    width: 300px;
-    border-color: #836FFF;
-    font-size: 15px;
-} 
-
-button{
-    padding: 10px;
-    border-radius: 20%;
-    height: 50px;
-    cursor: pointer;
-    margin-bottom: 15px;
-    margin-right: 10px;
-    border: none;
-    background: #836FFF;
-    color: white;
-    
-    
-    
-}
-
 ::placeholder{
     opacity: 50%;
     color: #836FFF;
