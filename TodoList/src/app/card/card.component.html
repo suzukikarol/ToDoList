@@ -1,3 +1,9 @@
 <span>To-do List</span>
+<app-input (send) = "send($event)"></app-input>
+
+
+<ul>
+    <li *ngFor = "let coxinha of tasks"> {{ coxinha }}</li>
+</ul>
 
 <div class="mat-display-3">To-do List</div>

@@ -1,11 +1,11 @@
 <mat-form-field class="input-field">
   <mat-label>O que precisa ser feito?</mat-label>
-  <input matInput class="MaterialInput" type="text" name="text" [(ngModel)]="inputValue" (keyup.enter)="addTask()"/>
+  <input matInput class="MaterialInput" type="text" name="text" [(ngModel)]="result.tasks" (keyup.enter)="addTask()"/>
 </mat-form-field>
 
 
-
-<div class="mat-display-2">To-do List</div>
+<!-- 
+<div class="mat-display-2">To-do List</div> -->
 <!-- <mat-card class="card">
        <mat-form-field class="input-field">
 

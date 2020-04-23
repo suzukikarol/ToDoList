@@ -12,38 +12,46 @@ export class CardComponent {
 
   lastId: number = 0;
 
-  tasks: Task[] = []
+  tasks:any[] = []
 
-  deleteTaskById(id: number){
-    this.tasks = this.tasks.filter(tasks =>
-      tasks.id !==id);
-    return this;
+  public send(result:any) : void {
+    this.tasks.push(result.tasks)
   }
+  
+  
+  
+  // tasks: Task[] = []
 
-  getAllTasks(): Task[]{
-    return this.tasks;
-  }
+  // deleteTaskById(id: number){
+  //   this.tasks = this.tasks.filter(tasks =>
+  //     tasks.id !==id);
+  //   return this;
+  // }
 
-  getTaskById(id: number): Task{
-    return this.tasks.filter(task =>
-      task.id===id).pop();
-  }
+  // getAllTasks(): Task[]{
+  //   return this.tasks;
+  // }
 
-  updateTaskById(id: number, values: Object = {}): Task {
-    let task =this.getTaskById(id);
-    if (!task){
-      return null
-    }
-    Object.assign(task, values);
-    return task;
-  }
+  // getTaskById(id: number): Task{
+  //   return this.tasks.filter(task =>
+  //     task.id===id).pop();
+  // }
 
-  toggleTaskComplete(task: Task){
-    let updatedTask = this.updateTaskById(task.id,{
-      complete: !task.complete
-    });
-    return updatedTask
-  }
+  // updateTaskById(id: number, values: Object = {}): Task {
+  //   let task =this.getTaskById(id);
+  //   if (!task){
+  //     return null
+  //   }
+  //   Object.assign(task, values);
+  //   return task;
+  // }
+
+  // toggleTaskComplete(task: Task){
+  //   let updatedTask = this.updateTaskById(task.id,{
+  //     complete: !task.complete
+  //   });
+  //   return updatedTask
+  // }
 
   constructor() { }
 
