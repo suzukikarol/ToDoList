@@ -1,7 +1,11 @@
 
 <div class="container-inset">
-
-    <input type="text" placeholder="Nova Tarefa...">
+    <input 
+    type="text" 
+    [value]="inputValue"
+    (input)="inputValue = $event.target.value"
+    >
+    <p>{{inputValue}}</p>
     <button class="stylebutton" >Inserir</button>
     <button class="stylebutton" >Apagar</button>
 </div>

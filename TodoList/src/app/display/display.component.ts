@@ -6,8 +6,10 @@ import { CardComponent } from '../card/card.component';
   templateUrl: './display.component.html',
   styleUrls: ['./display.component.css']
 })
+
 export class DisplayComponent implements OnInit {
-  inputValue:any;
+
+  inputValue:string = 'Nova Tarefa...'
 
   constructor() { }
 
@@ -18,10 +20,10 @@ export class DisplayComponent implements OnInit {
     
   }
 
-  getTask(event){
-    this.inputValue = String(event.target.value);
-    console.log(this.inputValue)
-  }
+  // getTask(event){
+  //   this.inputValue = String(event.target.value);
+  //   console.log(this.inputValue)
+  // }
 
   addCard() {
   
